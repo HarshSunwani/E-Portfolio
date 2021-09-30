@@ -403,7 +403,8 @@ section .title::after{
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.teams .carousel .card .text, .teams .carousel .card .text a{
+    color: #fff;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
