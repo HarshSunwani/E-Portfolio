@@ -137,7 +137,7 @@ html {
   transform: translateY(-0.8rem);
 }
 
-.about, .skills, .contact, .projects{
+.about, .skills, .contact, .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,6 +153,7 @@ html {
   justify-content: center;
   padding: 2rem 5rem 1rem;
 }
+
 .image {
   width: 17rem;
   height: 17rem;
@@ -169,6 +170,7 @@ html {
 #profile {
   width: 100%;
 }
+
 .info {
   width: 400px;
 }
@@ -260,9 +262,11 @@ html {
 }
 
 /* ------------------------------project-------------------------------- */
-.projects{
- text-align: center;
+
+.projects {
+  text-align: center;
 }
+
 .project {
   width: 75rem;
   display: flex;
@@ -273,10 +277,10 @@ html {
 
 .card {
   width: 300px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
   margin: 0rem 2.5rem;
   padding: 2rem;
   border-radius: 20px;
@@ -299,13 +303,13 @@ html {
   width: 100%;
 }
 
-.pro-info a, .more a{
+.pro-info a, .more a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #fed703;
 }
 
-.pro-info p{
+.pro-info p {
   line-height: 1.5rem;
   margin-top: 1rem;
   font-size: 1rem;
@@ -489,7 +493,7 @@ html {
     width: 3rem;
     transform: translateY(-0.5rem);
   }
-  .about, .skills, .contact, .projects{
+  .about, .skills, .contact, .projects {
     padding-top: 5rem;
   }
   .profile {
@@ -549,14 +553,17 @@ html {
   .label, .more {
     font-size: 1rem;
   }
-  .project{
-    width: 100vw;
+  .project {
+    width: 80%;
     margin: 1.5rem 0rem 0rem;
     flex-direction: column;
   }
-  .card{
-    width: 250px;
-    margin: 2rem 0rem;
+  .card {
+    width: 70%;
+    height: fit-content;
+    justify-content: center;
+    padding: 3rem;
+    margin: 1rem 0rem;
   }
   .contact {
     margin-top: 2rem;
@@ -631,5 +638,8 @@ html {
   }
   .intro span, .form span {
     font-size: 1rem;
+  }
+  .card{
+    width: 80%;
   }
 }
